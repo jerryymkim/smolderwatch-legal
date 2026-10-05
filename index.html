@@ -58,7 +58,10 @@ and process purchases.</p>
   within 30 days.</p>
   <p><strong>What gets deleted:</strong> your cloud-saved game progress (zones, currencies, upgrades,
   settings) stored via Google Play Games Saved Games. You can also delete this yourself at any time
-  through Google Play Games ("Delete Play Games data").</p>
+  through Google Play Games ("Delete Play Games data"). If you are on the leaderboards, your leaderboard
+  entry (hero name, avatar, scores) is deleted too, including the recovery copy described under
+  "Leaderboards" below; you can also remove your entry yourself with <strong>Leave Leaderboards</strong>
+  on your Profile screen.</p>
   <p><strong>What is kept:</strong> nothing that identifies you. The optional anonymous analytics use a
   random install ID that is not linked to your identity, so there is no personal record to delete.
   Your local save lives only on your device and is removed when you uninstall the app. Retention of
@@ -112,7 +115,29 @@ game sends the following to a first-party endpoint (a private Google Sheet opera
 stop immediately. The random install ID is not linkable to your identity, so there is nothing to
 delete — the data is anonymous numbers.</p>
 <p>This feature is entirely the developer's own code — it does <strong>not</strong> use any third-party
-analytics SDK. We do <strong>not</strong> use any other separate analytics or tracking SDK, and we do
+analytics SDK.</p>
+
+<h3>5. Leaderboards (optional)</h3>
+<p>The game has leaderboards that other players can see. <strong>In the EEA, the UK and Switzerland you
+are not on them</strong> until you tap <strong>Join</strong> on the Leaderboards screen; nothing is sent
+before that. Everywhere else you are placed on them automatically, and the game tells you so the first
+time you open the Leaderboards screen. While you are on the leaderboards, the game sends the following
+to a first-party endpoint (a private Google Sheet operated by the developer):</p>
+<ul>
+  <li>the <strong>hero name</strong> you chose and your chosen <strong>avatar</strong> — shown to other
+  players,</li>
+  <li>your <strong>scores</strong>: highest zone, number of prestiges, and total kills — shown to other
+  players,</li>
+  <li>the <strong>random install ID</strong> described above — used only to find and update your own
+  entry; it is not shown to other players.</li>
+</ul>
+<p>Your hero name is whatever you typed, so do not use your real name if you do not want it shown.
+<strong>Leaving:</strong> tap <strong>Leave Leaderboards</strong> on your Profile screen at any time. Your
+entry is removed from the leaderboards right away and nothing further is sent unless you join again. A
+copy of the removed entry is kept in a private recovery log that other players cannot see, so that an
+unauthorised removal can be undone; email the contact address above to have that copy erased as well.</p>
+
+<p>We do <strong>not</strong> use any other separate analytics or tracking SDK, and we do
 <strong>not</strong> sell your personal information.</p>
 
 <h2>How the information is used</h2>
